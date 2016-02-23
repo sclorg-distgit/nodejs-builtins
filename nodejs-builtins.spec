@@ -10,7 +10,7 @@
 
 Name:		%{?scl_prefix}nodejs-builtins
 Version:	1.0.2
-Release:	2%{?dist}
+Release:	3%{?dist}
 Summary:	List of node.js builtin modules
 Url:		https://github.com/juliangruber/builtins
 Source0:	https://registry.npmjs.org/%{npm_name}/-/%{npm_name}-%{version}.tgz
@@ -54,6 +54,9 @@ node test.js
 %doc License
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 1.0.2-3
+- rebuilt
+
 * Fri Nov 27 2015 Tomas Hrcka <thrcka@redhat.com> - 1.0.2-2
 - Enable scl macros
 
